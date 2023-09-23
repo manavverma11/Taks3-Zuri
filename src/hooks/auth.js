@@ -42,8 +42,7 @@ export function useLogin() {
       }
       return false;
   
-      setIsLoginLoading(false);
-      return true;
+
     }
     
     return { login, isLoginLoading };
