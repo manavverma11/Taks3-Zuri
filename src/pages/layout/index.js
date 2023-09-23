@@ -7,7 +7,7 @@ export default function Layout() {
 
   useEffect(() => {
       navigate(LOGIN);
-  }, []);
+  });
 
   return (
     <div></div>
