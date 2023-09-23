@@ -3,7 +3,7 @@ import { AiOutlineSearch, AiOutlineLogout } from "react-icons/ai";
 import useLogout from "../../hooks/auth";
 
 export default function Navbar({ onFilterImages }) {
-  const { logout, isLogoutLoading } = useLogout();
+  const { logout } = useLogout();
   const [inputField, setInputField] = useState("");
 
   const handleTagInputChange = (e) => {
